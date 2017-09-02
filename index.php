@@ -16,15 +16,6 @@ if($anti->detect_hack(NULL,'FILES') == true){
        die('U are banned, contact: '.$adminMAIL);   
 }
 
-if($anti->detect_hack(NULL,'QUERY') == true){
-       die('U are banned, contact: '.$adminMAIL);   
-}
-
-if($anti->detect_hack($_COOKIE) == true){
-       die('U are banned, contact: '.$adminMAIL);   
-}
-
-
 
 if($anti->detect_hack($_SESSION) == true){
         die('U are banned, contact: '.$adminMAIL);   
