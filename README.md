@@ -1,0 +1,3 @@
+# class.antihack
+
+Antihack Class
